@@ -1,0 +1,168 @@
+BODY {
+  background-color:#E1E2E8; 
+  
+/*   font-family: 'Georgia'; */
+}
+
+* {
+  font-size: 14pt;
+  line-height: 140%;
+}
+
+DIV.container {
+  max-width: 750px;
+}
+
+H2 {
+  margin-top: 1.5em;
+}
+
+P {
+  margin-bottom: 1em;
+}
+
+A, A:visited {
+  color: #08A;
+  text-decoration: none;
+}
+
+A:hover {
+  text-decoration: underline;
+}
+
+DIV.blurb {
+  text-align: justify;
+}
+
+DIV.blurbByline {
+  margin-top: 0.2em;
+  margin-bottom: 1.5em;
+  
+  text-align: right;
+}
+
+SPAN.blurbAuthor {
+  font-weight: bold;
+}
+
+P.coauthorBio {
+  margin-top: 0;
+/*   font-size: initial; */
+}
+
+IMG.cover {
+  width: 300px; 
+  box-shadow: 0 0 2px 1px #757575;
+}
+
+.tedtalk {
+  width: 560px;
+  height: 315px;
+}
+
+
+
+.titleContainer {
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+.supertitle {
+  font-size: 18pt;
+  font-style: italic;
+  text-align: center;
+  line-height: 100%;
+}
+
+.title, .title A {
+  margin-top: 0.2em;
+  font-size: 30pt;
+  text-align: center;
+  line-height: 100%;
+  
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.subtitle {
+  margin-top: 0.3em;
+  font-size: 22pt;
+  text-align: center;
+  line-height: 100%;
+
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.byline {
+  margin-top: 0.3em;
+  font-size: 16pt;
+  text-align: center;
+  line-height: 120%;
+
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+
+
+
+@media only screen and (max-width: 350px) {
+  IMG.cover {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .tedtalk {
+    width: 400px;
+    height: 225px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .tedtalk {
+    width: 300px;
+    height: 169px;
+  }
+}
+
+/*
+
+@media only screen and (max-width: 800px) {
+  DIV.container {
+    padding: 1em 1em;
+    box-sizing: border-box;
+    font-size: 24pt;
+  }
+  
+  H2 {
+    margin-top: 2.5em;
+    font-size: 28pt;
+  }
+  
+  P {
+    margin-top: 1.5em;
+    font-size: 24pt;
+  }
+  
+  P.coauthorBio {
+	margin-top: 0;
+	font-size: 24pt;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  DIV.container {
+    font-size: 20pt;
+  }
+    
+  H2 {
+    font-size: 24pt;
+  }
+  
+  P {
+    font-size: 20pt;
+  }
+  
+  P.coauthorBio {
+	font-size: 24pt;
+  }
+}
+ */
